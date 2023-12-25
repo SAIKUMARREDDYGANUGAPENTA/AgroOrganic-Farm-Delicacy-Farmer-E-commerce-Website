@@ -8,4 +8,4 @@ Inside the folder create a floder name Server
 
 Then Add data , data2 , public and src and Client folder conatin files into the Client folder
 
-Then Add  folder
+And Add controllers , middleware , models , routes and index.js files into the server Folder page and the files present in Server  folder in above Repositry
