@@ -1,0 +1,298 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  /* background: url('https://img.freepik.com/free-photo/solid-navy-blue-concrete-textured-wall_53876-124584.jpg?size=626&ext=jpg&ga=GA1.1.1548618625.1698693237&semt=ais');
+  background-size: cover;
+  background-repeat: no-repeat; */
+}
+ .products_1,.Admins,.users{
+
+
+  /* background: url('https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-72293.jpg?size=626&ext=jpg&ga=GA1.1.1548618625.1698693237&semt=ais'); */
+  background: url('https://wallpapercave.com/wp/wp2508260.jpg'); 
+  /* background: url('https://img.freepik.com/free-photo/solid-navy-blue-concrete-textured-wall_53876-124584.jpg?size=626&ext=jpg&ga=GA1.1.1548618625.1698693237&semt=ais'); */
+  /* background-size: cover;
+  background-repeat: no-repeat; */
+  margin-bottom: 4.5rem;
+  padding-bottom: 3rem;
+ 
+ 
+  
+}
+.Reviews{
+   /* background: url('https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-72293.jpg?size=626&ext=jpg&ga=GA1.1.1548618625.1698693237&semt=ais'); */
+   background: url('https://wallpapercave.com/wp/wp2508260.jpg'); 
+   /* background: url('https://img.freepik.com/free-photo/solid-navy-blue-concrete-textured-wall_53876-124584.jpg?size=626&ext=jpg&ga=GA1.1.1548618625.1698693237&semt=ais'); */
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 100vh;
+}
+
+
+
+.sidebar_1 {
+  background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
+  color: #161313;
+  height: 100vh;
+  width: 250px;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.sidebar_1 h1 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.sidebar_1 ul {
+  list-style: none;
+  padding: 24px;
+}
+
+.sidebar_1 ul li {
+  
+  margin-bottom: 20px;
+  background-color: #eedcdc;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.sidebar_1 ul li:hover {
+    margin-bottom: 20px;
+    background-color: #9febfa;
+    padding: 10px;
+    border-radius: 10px;
+    
+  }
+
+.sidebar_1 ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #0b0a0a;
+  font-weight: bold;
+}
+
+.sidebar_1 ul li a:hover {
+    border-bottom: 4px solid orange;
+    font-size: 20px;
+    color: #0b0a0a;
+    font-weight: bold;
+  }
+.content_15 {
+  margin-left: 270px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card_15 {
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.card_15:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+/* ... (your existing CSS code) ... */
+
+.graph-container {
+  width: 80%;
+  margin-left: 300px auto;
+  margin-left: 2.5cm;
+  margin-bottom: 1cm;
+  
+}
+
+/* Style for the canvas element */
+.userchat2 {
+ 
+  margin-left: 28%;
+  margin-top: 8%;
+  height: 400px !important;
+  width: 900px !important;
+  background-color: #fff; /* Background color for the chart area */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* ... (your existing CSS code) ... */
+/* ... (your existing CSS code) ... */
+
+.user-cards {
+  display: grid;
+  margin-left: 7cm;
+  grid-template-columns: repeat(4, 1fr); /* Each row contains three cards */
+  gap: 15px;
+  margin-top: 20px;
+  justify-content: center; 
+  margin-right: 1rem;/* Center align the cards */
+}
+
+.user-card {
+  border: 1px solid #ccc;
+  background-color: #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  width: 18rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;      
+  margin: 10px; /* Add margin between cards */
+  flex: 1;
+}
+
+
+      /* Style for user details */
+      .user-details {
+          font-size: 16px;
+          margin: 10px 0;
+      }
+  
+
+
+      
+.search_1{
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 13cm;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+.search_1:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  } 
+
+.searchbar{
+    text-align: center;
+    color: rgb(231, 131, 30);
+    font-size: 3rem;
+    margin-left: 7cm;
+    padding: 24px;
+    margin-top: 0px;
+}
+
+
+.product_cards {
+  margin-left: 7cm;
+  
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  background-color: #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;      
+  flex: 1;
+}
+
+.product-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.product-details p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+
+
+.feedback-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-left: 7cm;
+}
+
+.feedback-card {
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  text-align: left;
+}
+
+.feedback-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.feedback-card h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif; /* Example font-family */
+  font-style: italic; 
+}
+
+.feedback-date {
+  font-size: 15px;
+  color: #777;
+}
+.feedback-name {
+  font-size: 15px;
+  color: #777;
+  padding-left: 10rem;
+  font-family: 'Times New Roman', Times, serif; /* Example font-family */
+  font-style: italic; 
+}
+
+.Footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%; /* To span the full width of the viewport */
+  text-align: center;
+  padding: 20px; /* Adjust padding as needed */
+  background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
+  color: whitesmoke;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+ margin-left: 15.5rem;
+}
+
+
+.graph23{
+  margin-left: 19%;
+  margin-top: 8%;
+  height: 500px !important;
+  width: 1130px !important;
+  background-color: #fff; /* Background color for the chart area */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 2px !important;
+}
+/* .str{
+  padding: 4px;
+}
+.str1{
+  padding: 8px;
+}
+.str3{
+  padding: 6px;
+} */

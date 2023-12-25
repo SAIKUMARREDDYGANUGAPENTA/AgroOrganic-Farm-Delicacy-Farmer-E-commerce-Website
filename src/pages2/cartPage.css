@@ -1,0 +1,125 @@
+.body_class_10{
+    /* margin-top: 1rem; */
+    vertical-align: middle;
+    display: flex;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    flex-direction: column;
+    height: 90vh;
+    font-weight: bold;
+    background: #eecda3;
+    margin-top: 5rem;
+    background: -webkit-linear-gradient(to right, #eecda3, #ef629f);
+    background: linear-gradient(to right, #eecda3, #ef629f)
+    
+}
+ 
+  
+.title{
+    margin-bottom: 5vh;
+}
+.card_50{
+    margin: auto;
+    max-width: 950px;
+    width: 90%;
+    
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 1rem;
+    border: transparent;
+}
+
+.cart_50{
+    background-color: #fff;
+    padding: 4vh 5vh;
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.summary_99{
+    background-color: #ddd;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding: 4vh;
+    color: rgb(65, 65, 65);
+}
+
+.summary_99 .col-2{
+    padding: 0;
+}
+.summary_1 .col-10
+{
+    padding: 0;
+}.row{
+    margin: 0;
+}
+.title b{
+    font-size: 1.5rem;
+}
+.main{
+    margin: 0;
+    padding: 2vh 0;
+    width: 100%;
+}
+.col-2, .col{
+    padding: 0 1vh;
+}
+
+.close{
+    margin-left: auto;
+    font-size: 0.7rem;
+}
+.imges-fluid{
+    width: 3.5rem;
+}
+
+
+.hrtag{
+    margin-top: 1.25rem;
+}
+
+
+
+.btn{
+    background-color: #000;
+    border-color: #000;
+    color: white;
+    width: 100%;
+    font-size: 0.7rem;
+    margin-top: 4vh;
+    padding: 1vh;
+    border-radius: 0;
+}
+
+.btn:hover{
+    color: white;
+}
+
+.spanclass1{
+    font-size: 1rem;
+    cursor: pointer;
+    margin-right: 4px;
+}
+.spanclass2{
+    margin: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+.spanclass{
+    cursor: pointer;
+    font-size: 2rem;
+}
+.border{
+    font-size: 1.1rem;
+    padding: 4px;
+    margin: 4px;
+    border-radius: 8px;
+    background-color: antiquewhite;
+}
+
+.spacebt{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 4px;
+}

@@ -1,0 +1,63 @@
+/* General Styles */
+
+  /* Main Section */
+  main.about {
+    color: #f6f1f1;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    background-image: url('https://img.freepik.com/free-photo/wooden-wall-background_53876-92960.jpg?size=626&ext=jpg');
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 8.5rem;
+  }
+  
+  /* About Section */
+  .about-section {
+    margin-bottom: 40px;
+    padding: 20px 0;
+    color: #f6f1f1;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .about-section h1 {
+    font-size: 28px;
+    color: #f6f1f1;
+    margin-bottom: 15px;
+  }
+  
+  .about-section p {
+    color: #f6f1f1;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  /* Team Section */
+  .team-section_1 {
+    color: #f6f1f1;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .team-member {
+    color: #f6f1f1;
+    display: inline-block;
+    margin: 20px;
+  }
+  
+  .team-member h3 {
+    color: #f6f1f1;
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .team-member p {
+    font-size: 14px;
+    color: #fcf8f8;
+  }
+  .heading59{
+    color: #fcf8f8;
+    margin-top: 1rem;
+  }
+  

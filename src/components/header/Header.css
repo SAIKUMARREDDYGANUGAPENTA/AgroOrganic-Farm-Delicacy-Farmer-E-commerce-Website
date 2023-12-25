@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation bar */
+.header {
+  top: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  background-color: #16a085;
+  position: sticky;
+  /* Ensure the header stays at the top of the page */
+  top: 0;
+}
+
+/* Dropdowns */
+
+/* Home Dropdown */
+.Home_Dropdown {
+  display: none;
+  background-color: #f9f9f9;
+  position: absolute;
+  width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1001;
+}
+
+.Home_Dropdown a {
+  font-size: 20px;
+  color: black;
+  padding: 10px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.Home_Button:hover .Home_Dropdown {
+  display: block;
+  margin-top: 0.9%;
+}
+
+/* Logo */
+.logo {
+  align-items: center;
+  margin: 0.2em;
+  margin-left: 2%;
+}
+
+/* Navigation links */
+.navlinks {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  justify-content: center;
+  margin: 2em;
+  font-size: 20px;
+  margin-right: 3%;
+}
+
+.navlinks .linki {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+}
+
+/* SVGICON and Signup Dropdown */
+.SVGICON:hover .signup_dropdown {
+  display: block;
+  margin-top: 0.2%;
+}
+
+.signup_dropdown {
+  display: none;
+  background-color: #f9f9f9;
+  position: absolute;
+  width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1001;
+}
+
+.signup_dropdown a {
+  font-size: 20px;
+  color: black;
+  padding: 10px 10px;
+  text-decoration: none;
+  display: block;
+}

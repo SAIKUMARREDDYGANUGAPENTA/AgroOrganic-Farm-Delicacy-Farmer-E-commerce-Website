@@ -1,0 +1,142 @@
+
+/*__________________CReate PAGE____________________________*/
+
+.products-list {
+  padding: 10px;
+    display: grid;
+    /* margin-top: 7rem; */
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  
+  @media (max-width: 1200px) {
+    .products-list {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+  
+  @media (max-width: 1000px) {
+    .products-list {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  
+  @media (max-width: 800px) {
+    .products-list {
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+  }
+  
+  .create-page-body {
+    display: flex;
+    padding: 2rem;
+    gap: 2rem;
+    margin-top: 6.9rem;
+  }
+  
+  .product-card-create {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    list-style: none;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    margin: 0.5rem;
+    line-height: 0.75;
+  }
+  
+  .imagess {
+    border-radius: 0.5rem;
+    aspect-ratio: 1;
+  }
+  
+  .selling-price {
+    font-size: x-large;
+  }
+  
+  .product-title_1{
+    font-size: x-large;
+    font-weight: 750;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  .cta-button {
+    background-color: #16a085;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    color: white;
+    font-weight: 600;
+  }
+  
+  .product-mrp {
+    font-size: small;
+  }
+  
+  .product-discount {
+    color: #888;
+  }
+  
+  .product-filters {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+    max-width: 12rem;
+  }
+  
+  .product-filters input {
+    padding-right: 1rem;
+    border-radius: 10rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+  
+  .filter-sort-title {
+    padding-top: 1rem;
+    font-weight: 800;
+  }
+  
+  .filter-price {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  
+  .filter-price input {
+    max-width: 5rem;
+    border-radius: 0.5rem;
+  }
+  
+  .cta-button-2 {
+    background-color: #16a085;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    color: white;
+    font-weight: 600;
+  }
+  
+  .left-div {
+    position: sticky;
+    top: 9rem;
+    height: fit-content;
+  }
+  
+
+  /* .product-filters p{
+    padding: 10px;
+  }
+  .product-filters label{
+    padding-top: 7px;
+    padding-bottom: 7px;
+  } */
+  .search_5{
+    padding: 10px;
+  }
+  
+  /* .product-card-create p{
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+   */
+  

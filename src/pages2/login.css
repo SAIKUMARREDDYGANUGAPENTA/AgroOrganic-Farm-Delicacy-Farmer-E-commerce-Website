@@ -1,0 +1,291 @@
+
+.sign_body_1 {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4-QkwW3JE8Isn33uxg_1pn-hi4bzWZV7jwQ&usqp=CAU');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 6.5rem;
+
+}
+
+
+.input_s,
+.submit_btn2 {
+    border: none;
+    outline: none;
+    background: none;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+/* .tip {
+    font-size: 20px;
+    margin: 40px auto 50px;
+    text-align: center;
+} */
+
+.signuppage_card_1{
+    padding: 3rem;
+}
+
+.cont_5 {
+    margin-top: 5rem;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    width: 900px;
+    height: 550px;
+    margin: 0 auto 100px;
+    /* background-image: url('https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-72293.jpg?w=1060&t=st=1699027396~exp=1699027996~hmac=3b916260b882ffb1b9b56594e5bf4729ab859be127b4dac1adf19f92a6671d9f'); */
+    background: #fff;
+    box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.3), 10px 10px 15px rgba(70, 70, 70, 0.15), inset -10px -10px 15px rgba(255, 255, 255, 0.3), inset 10px 10px 15px rgba(70, 70, 70, 0.15);
+}
+
+.sign-in_1 {
+    position: relative;
+    width: 640px;
+    height: 100%;
+    margin-left: 15rem;
+    margin-top: 4rem;
+  
+    padding: 50px 30px 0;
+}
+
+.sign-up{
+    position: relative;
+    width: 640px;
+    height: 60vh;
+    margin-left: 15rem;
+    margin-top: 2px;
+   
+    padding: 30px 30px 0;
+}
+
+
+
+.img_2 {
+    overflow: hidden;
+    z-index: 2;
+    position: absolute;
+    
+    margin-right: 8px;
+    left: 0;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    padding-top: 360px;
+    font-size: 1.2rem;
+}
+
+.img_2:before {
+    
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 900px;
+    height: 100%;
+
+    opacity: .8;
+    background-size: cover;
+  
+}
+
+.img_2:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -11;
+    background-image: url('https://img.freepik.com/free-vector/starry-night-background-design_1114-17.jpg?size=626&ext=jpg&ga=GA1.1.1548618625.1698693237&semt=ais');
+
+}
+
+
+
+.img__text9 {
+    z-index: 2;
+    position: absolute;
+    left: -14;
+   
+    top: 150px;
+    width: 93%;
+    padding: 20px 20px;
+    margin-right: 50px;
+    text-align: center;
+    color: #fff;
+   
+}
+
+.head_h2{
+    width: 100%;
+    font-size: 26px;
+    text-align: center;
+    
+    z-index: 99;
+}
+
+.label_s {
+    display: block;
+    width: 260px;
+    margin: 25px auto 0;
+    text-align: center;
+}
+
+.label_s span {
+    font-size: 12px;
+    color: #943535;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.input_s {
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+
+
+.submit_btn_5 {
+    display: block;
+    margin: 0 auto;
+    width: 260px;
+    height: 36px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background: #d4af7a;
+    text-transform: uppercase;
+}
+
+.fb-btn {
+    border: 2px solid #d3dae9;
+    color: #8fa1c7;
+}
+
+.fb-btn span {
+    font-weight: bold;
+    color: #455a81;
+}
+
+
+/* CSS */
+.button-30 {
+    align-items: center;
+    appearance: none;
+    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono",monospace;
+    height: 48px;
+    width: 7cm;
+    
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+    left: 5cm;
+  }
+  
+  .button-30:focus {
+    box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  }
+  
+  .button-30:hover {
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
+  
+  .button-30:active {
+    box-shadow: #3c4fe0 0 3px 7px inset;
+    transform: translateY(2px);
+  }
+  
+
+.submit_btn2 {
+    
+    z-index: 2;
+   position: absolute;
+    
+   
+    top: 350px;
+    width: 100%;
+    padding: 5px 5px;
+    margin-right: 5px;
+    text-align: center;
+    color: #fff;
+   
+   margin-left: 60px;
+    width: 160px;
+    height: 36px;
+    border-radius: 30px;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background: #e8dfd3;
+    text-transform: uppercase;
+}
+
+.check1{
+    position: absolute;
+    left: 15.3rem;
+    top: 13.8rem;
+    size: 2rem;
+    width: 15px; 
+    height: 15px; 
+    
+
+}
+.check2{
+    position: absolute;
+    left: 20rem;
+    top: 16rem;
+    size: 2rem;
+    width: 18px; 
+    height: 18px; 
+    
+
+}
+
+.check2{
+    font-size: medium;
+}
+
+
+.error-message{
+    text-align: center;
+    color: #d60505;
+    font-size: 1.2rem;
+}
+
+.error-message{
+    font-size:12px ;
+}

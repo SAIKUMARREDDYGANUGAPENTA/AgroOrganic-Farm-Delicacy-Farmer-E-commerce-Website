@@ -1,0 +1,99 @@
+/* invoice.css */
+
+/* Overall invoice styling */
+
+.invoice_5 {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff; /* White background */
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 7.7rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+/* Header section */
+.header_9 h1 {
+  text-align: center;
+  margin: 0;
+  font-size: 29px;
+  color: #333;
+}
+
+.invoice-details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.invoice-details .details,
+.invoice-details .company-details {
+  width: 48%;
+}
+
+.details_9 p,
+.company-details p {
+  margin: 5px 0;
+  color: #555;
+}
+
+/* Main section (table) */
+.main {
+  margin-top: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd; /* Light gray border */
+  padding: 8px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f3f3f3; /* Light gray background for table header */
+}
+
+/* Footer section */
+.footer_1 {
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #ddd; /* Light gray border */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+.footer_1 a {
+  text-decoration: none;
+  color: #333;
+}
+
+.footer_1 a:hover {
+  color: #555;
+}
+.footer_1 p{
+  padding: 6px;
+}
+
+.btn_class{
+  background-color: #333;
+  color: white;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 4px;
+
+}
+.btn_class:hover{
+  background-color: white;
+  color: #333;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 4px;
+}
